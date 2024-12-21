@@ -1,10 +1,6 @@
-Here’s a sample README file for your project, LeetPulse:
-
----
-
 # LeetPulse
 
-LeetPulse is a simple web application designed to provide detailed insights into a user's LeetCode profile. By entering a LeetCode username, users can fetch statistics such as solved problems, rankings, and progress. The data is visualized in an interactive and user-friendly format to help users track their performance.
+LeetPulse is a simple web application that provides detailed insights into a user's LeetCode profile. By entering a LeetCode username, users can fetch statistics such as solved problems, rankings, and progress. The data is visualized in an interactive and user-friendly format to help users track their performance.
 
 ## Features
 
