@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetPulse </title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Marck+Script&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- heading user input   stats    -->
+    <div class="container">
+        <h1>LeetPulse </h1>
+
+        <div class="user-container">
+
+            <p style="font-size: 1.1rem;">Enter your leetcode userid below:</p>
+
+            <div class="user-input-container">
+                <input type="text" id="user-name" placeholder="your leetcode username">
+                <button id="search-btn">Search</button>
+            </div>
+
+        </div>
+
+        <div class="stats-container">
+
+            <div class="progress">
+                <div class="progress-item ">
+                    <div class="easy-progress circle">
+                        <span id="easy-lable"></span>
+                        <p>Easy</p>
+                </div>
+                    </div>
+                    <div class="progress-item ">
+                        <div class="medium-progress circle">
+                            <span id="medium-lable"></span>
+                            <p>Medium</p>
+                        </div>
+                    </div>
+                    <div class="progress-item ">
+                        <div class="hard-progress circle">
+                            <span id="hard-lable"></span>
+                            <p>Hard</p>
+                        </div>
+                    </div>
+            </div>
+
+            
+            <div class="stats-cards">
+                <!-- Directly populate from JS -->
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
